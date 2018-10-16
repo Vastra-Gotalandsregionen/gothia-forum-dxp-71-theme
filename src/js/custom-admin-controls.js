@@ -9,7 +9,10 @@ AUI().ready(
     var CSS_CLASS_CONTROLS_OPEN = 'custom-admin-controls-open';
 
     // Custom admin controls Liferay.Store key
-    var LIFERAY_STORE_CONTROLS_KEY = 'custom-admin-controls';
+    //var LIFERAY_STORE_CONTROLS_KEY = 'custom-admin-controls';
+    var LIFERAY_STORE_CONTROLS_KEY = 'gothia-forum-dxp-71-theme_custom-admin-controls';
+
+
 
     // Toggle Button css classes
     var CSS_CLASS_JS_TOGGLE_ADMIN_MODE = 'js-toggle-admin-mode';
