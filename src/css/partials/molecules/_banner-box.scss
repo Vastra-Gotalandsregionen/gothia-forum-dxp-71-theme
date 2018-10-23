@@ -1,14 +1,14 @@
 .banner-box {
 
   &.owl-carousel {
-    .owl-controls {
+    .owl-dots {
       @include border-radius(4px);
       background: black;
       bottom: 6px;
+      height: 20px;
       margin: 0;
       position: absolute;
       right: 6px;
-
     }
   }
 

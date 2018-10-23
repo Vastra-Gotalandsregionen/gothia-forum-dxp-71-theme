@@ -5,7 +5,7 @@
   var bannerBox = $('.banner-box');
   var bannerBoxItems = $('.banner-box-item');
 
-  bannerBox.addClass('owl-carousel');
+  bannerBox.addClass('owl-carousel owl-theme');
   bannerBoxItems.removeClass('hide');
 
   bannerBox.owlCarousel({

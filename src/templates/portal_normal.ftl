@@ -138,7 +138,13 @@
 
 <script type="text/javascript" src="${javascript_folder}/custom-admin-controls.js"></script>
 
+<#--
 <script type="text/javascript" src="${javascript_folder}/jquery/owl.carousel.min.js"></script>
+-->
+<#--
+<script type="text/javascript" src="${javascript_folder}/jquery/owl.carousel.js"></script>
+-->
+<script type="text/javascript" src="${javascript_folder}/jquery/owl/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 <script type="text/javascript" src="${javascript_folder}/jq.js"></script>
 
 
