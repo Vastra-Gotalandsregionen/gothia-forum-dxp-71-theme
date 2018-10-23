@@ -27,7 +27,7 @@
 
 	<div class="header-inner">
 		<div class="logotype">
-			<a href="/">
+			<a href="${site_default_url}">
 				<#assign logo_src = images_folder + "/theme/logo/gothia-forum-logo.png" />
 				<#assign logo_src_responsive = images_folder + "/theme/logo/gothia-forum-logo-responsive.png" />
 
