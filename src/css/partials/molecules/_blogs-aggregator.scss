@@ -1,39 +1,61 @@
-.js .portlet-blogs-aggregator {
+//.js .portlet-blogs-aggregator {
+.portlet-boundary_com_liferay_blogs_web_portlet_BlogsAgreggatorPortlet_ {
 
-  .entry-info {
-    line-height: 1em;
-    overflow: hidden;
+  .entry {
+
+    .entry-info {
+      margin-top: 0;
+      float: left;
+      width: 90px;
+
+      small {
+        font-size: 1.0em;
+
+        // Name of author
+        strong {
+          display: none;
+        }
+
+        // Dash between name and date
+        span {
+          display: none;
+        }
+
+
+      }
+    }
+
+    .entry-title {
+      margin-left: 100px;
+      position: relative;
+
+      h2 {
+        font-size: 1.0em;
+        font-weight: normal;
+        line-height: 1.2em;
+
+        a {
+          color: $link-color;
+          font-weight: normal;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+      }
+    }
+
+
   }
 
-  .entry-content .entry-info .entry-date {
-    float: left;
-    width: 90px;
+  .separator {
+    border-color: #bfbfbf;
   }
 
-  .entry-content .entry-title {
-    margin-left: 100px;
-    position: relative;
-  }
+  .portlet-topper {}
 
-  .entry-content .entry-title a {
-    position: relative;
-  }
-
-  .entry-content .entry-author, .entry-content .entry-categories, .entry-content .entry-tags {
-    display: none;
-  }
-
-  .entry-content .entry-date {
-    background: none;
-    padding: 0;
-  }
-
-  .entry-content .entry-date, .entry-content .entry-title {
-    float: none;
-    font-size: 1.0em;
-    font-weight: normal;
-    line-height: 1.2em;
-  }
 
   .portlet-title {
     background: none repeat scroll 0 0 #EFEDE3;
@@ -49,11 +71,29 @@
     }
   }
 
-  .taglib-page-iterator {
-    display: none;
+
+}
+
+// Show portlet title even when admin controls are closed
+.custom-admin-controls-closed,
+.custom-admin-controls-open {
+  .portlet-boundary_com_liferay_blogs_web_portlet_BlogsAgreggatorPortlet_ .portlet .portlet-content {
+
+    .portlet-header {
+      display: block;
+
+      .portlet-title-text {
+        background: #EFEDE3;
+        border-top: 4px solid #CC071E;
+        color: #CC071E;
+        font-size: 1.1em;
+        font-weight: normal;
+        margin: 0;
+        padding: 4px 5px;
+      }
+      
+    }
+
   }
 
-  .entry-title {
-    white-space: normal;
-  }
 }
