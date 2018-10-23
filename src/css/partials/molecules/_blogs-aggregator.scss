@@ -54,21 +54,15 @@
     border-color: #bfbfbf;
   }
 
-  .portlet-topper {}
-
-
-  .portlet-title {
-    background: none repeat scroll 0 0 #EFEDE3;
+  .portlet-title-text {
+    background: #EFEDE3;
     border-top: 4px solid #CC071E;
     color: #CC071E;
     font-size: 1.1em;
     font-weight: normal;
     margin: 0;
+    max-width: 100%;
     padding: 4px 5px;
-
-    img {
-      display: none;
-    }
   }
 
 
@@ -81,17 +75,6 @@
 
     .portlet-header {
       display: block;
-
-      .portlet-title-text {
-        background: #EFEDE3;
-        border-top: 4px solid #CC071E;
-        color: #CC071E;
-        font-size: 1.1em;
-        font-weight: normal;
-        margin: 0;
-        padding: 4px 5px;
-      }
-      
     }
 
   }
