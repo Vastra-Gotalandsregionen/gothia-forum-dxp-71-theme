@@ -5,38 +5,95 @@
     max-width: 100%;
   }
 
-  // // Old theme
-  // .navbar {
-  //   .navbar-inner {
-  //     // background: none;
-  //     // border: none;
-  //     // @include box-shadow(none);
-  //     //
-  //     // padding: 0;
-  //
-  //     padding: 0.3em 1em;
-  //
-  //     ul {}
-  //   }
-  // }
-  //
-  // .entry-date {
-  //   background: none;
-  //   padding-left: 0;
-  // }
-  //
-  // .entry-author {
-  //   background: none;
-  //   padding-left: 0;
-  // }
-  //
-  // .entry-footer {
-  //   @include pie-clearfix();
-  // }
-  //
-  // .taglib-header .header-back-to a {
-  //   font-size: 1.1em;
-  //   padding: 0.3em;
-  // }
+  .widget-mode-detail {
+    padding-top: 0;
 
+    .widget-mode-detail-header {
+      .col-md-8 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .title {
+      font-size: 2.28571em;
+      line-height: 1.25;
+    }
+
+    .widget-metadata {
+      margin: 10px 0;
+
+      .username {
+        color: $text-color;
+        text-decoration: none;
+        &:hover {
+          color: $text-color;
+          cursor: none;
+          text-decoration: none;
+        }
+      }
+
+    }
+
+    .widget-mode-detail-text {
+      margin-top: 0;
+
+      p {
+        font-size: 1em;
+        line-height: 1.5;
+      }
+    }
+
+  }
+
+  .entry-navigation {
+    padding: 10px 0;
+    flex: none;
+    max-width: 100%;
+
+    .card {
+
+      .card-body {
+        padding: 0.75rem;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        line-height: 1.5;
+        font-weight: normal;
+      }
+
+      .widget-metadata {
+        .username {
+          color: $text-color;
+          text-decoration: none;
+          &:hover {
+            color: $text-color;
+            cursor: none;
+            text-decoration: none;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .portlet-body {
+    > .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+}
+
+// Hide visible interaction when admin controls are closed
+.custom-admin-controls-closed {
+  .portlet-blogs:hover,
+  .portlet-blogs.open {
+    .visible-interaction {
+      display: none;
+    }
+  }
 }
