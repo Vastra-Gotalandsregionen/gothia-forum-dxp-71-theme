@@ -26,9 +26,9 @@ a {
 	color: $link-color;
 	text-decoration: none;
 
-	&:visited {
-		color: $link-color;
-	}
+	// &:visited:not(.btn) {
+	// 	color: $link-color;
+	// }
 
 	&:hover {
 		color: $link-hover-color;
