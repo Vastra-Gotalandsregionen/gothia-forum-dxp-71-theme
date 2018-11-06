@@ -4805,6 +4805,12 @@ body {
   font-size: 0.9em;
   padding: 20px 0 0 0;
   text-align: left; }
+  .main-footer .portlet-boundary {
+    margin-bottom: 0; }
+  .main-footer .portlet {
+    margin-bottom: 0; }
+    .main-footer .portlet .portlet-body {
+      padding: 0; }
   .main-footer .footer-bottom {
     background: #d90000;
     padding: 1.0em 0;

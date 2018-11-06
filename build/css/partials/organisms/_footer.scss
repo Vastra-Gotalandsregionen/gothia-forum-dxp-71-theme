@@ -6,6 +6,18 @@
 	padding: 20px 0 0 0;
 	text-align: left;
 
+	.portlet-boundary {
+		margin-bottom: 0;
+	}
+
+	.portlet {
+		margin-bottom: 0;
+
+		.portlet-body {
+			padding: 0;
+		}
+	}
+
 	.footer-bottom {
 		background: $footer-bottom-bg;
 		padding: 1.0em 0;
