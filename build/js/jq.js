@@ -16,8 +16,8 @@
     dots: true,
     autoplay:true,
     autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    singleItem: 1
+    autoplayHoverPause:true//,
+    //singleItem: 1
   });
 
 })( jQuery, window, document );
