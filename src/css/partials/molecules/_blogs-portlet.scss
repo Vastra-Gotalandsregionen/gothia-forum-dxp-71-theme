@@ -5,6 +5,41 @@
     max-width: 100%;
   }
 
+  .widget-mode-simple {
+
+    margin-top: 0;
+
+    .widget-mode-simple-entry {
+      border-bottom: 1px dotted #bfbfbf;
+    }
+
+    .widget-topbar {
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .widget-metadata {
+
+      margin: 0 0 10px 0;
+
+      .inline-item-before {
+        display: none;
+      }
+
+      .username {
+        color: $text-color;
+        text-decoration: none;
+        &:hover {
+          color: $text-color;
+          cursor: none;
+          text-decoration: none;
+        }
+      }
+
+    }
+  }
+
   .widget-mode-detail {
     padding-top: 0;
 
@@ -22,6 +57,10 @@
 
     .widget-metadata {
       margin: 10px 0;
+
+      .inline-item-before {
+        display: none;
+      }
 
       .username {
         color: $text-color;
@@ -42,6 +81,34 @@
         font-size: 1em;
         line-height: 1.5;
       }
+    }
+
+  }
+
+  .widget-mode-card {
+
+    .widget-metadata {
+
+      margin: 0;
+
+      .inline-item-before {
+        display: none;
+      }
+
+      .username {
+        color: $text-color;
+        text-decoration: none;
+        &:hover {
+          color: $text-color;
+          cursor: none;
+          text-decoration: none;
+        }
+      }
+
+    }
+
+    .card-footer {
+      display: none;
     }
 
   }
