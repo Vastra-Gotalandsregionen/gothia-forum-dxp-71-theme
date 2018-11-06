@@ -4212,6 +4212,13 @@ ul.cal-list {
   .contact-info-wrap .contact-info-label {
     font-weight: bold; }
 
+.dialog-iframe-popup {
+  background: #F1F2F5; }
+  .dialog-iframe-popup .sheet > .lfr-nav {
+    margin-top: -21px; }
+  .dialog-iframe-popup a.sheet-subtitle {
+    color: #272833; }
+
 .dockbar .nav > li.dockbar-user-notifications a {
   padding-top: 3px;
   padding-bottom: 3px; }
@@ -4507,6 +4514,11 @@ ul.cal-list {
       .nav-menu ul li.selected > a {
         color: #d90000;
         font-weight: normal; }
+
+.nav-tabs {
+  border-bottom-width: 0; }
+  .nav-tabs > li > a {
+    padding: 0.625rem 1rem; }
 
 .portlet-nested-portlets .row .portlet-column-first {
   padding-left: 0; }
