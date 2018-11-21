@@ -5,6 +5,7 @@
     "url": "http://localhost:8080",
     "appServerPathPlugin": "/Users/erikandersson/dev/servers/vgr/hotell-71/liferay-dxp-7.1.10-ga1/tomcat-9.0.6/webapps/gothia-forum-dxp-71-theme",
     "deployed": true,
-    "pluginName": "gothia-forum-dxp-71-theme"
+    "pluginName": "gothia-forum-dxp-71-theme",
+    "deploymentStrategy": "LocalAppServer"
   }
 }

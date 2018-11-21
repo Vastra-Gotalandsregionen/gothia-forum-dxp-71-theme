@@ -4561,6 +4561,18 @@ ul.cal-list {
 .portlet-nested-portlets .row .portlet-column-last {
   padding-right: 0; }
 
+.portlet .portlet-header .portlet-title-text {
+  color: #6B6C7E;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 2.2;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+.portlet-journal-content.portlet-barebone .portlet .portlet-header {
+  right: auto;
+  position: relative; }
+
 .gothia-search-wrap input[type="text"] {
   background: #fff url(../images/icons/search-icon.png) 4px 3px no-repeat;
   border: 1px solid #c4ced5;
