@@ -49,6 +49,7 @@ body {
 @import 'partials/molecules/banner-box';
 @import 'partials/molecules/blogs-aggregator';
 @import 'partials/molecules/blogs-portlet';
+@import 'partials/molecules/blogs-teaser';
 @import 'partials/molecules/breadcrumbs';
 @import 'partials/molecules/calendar-article';
 @import 'partials/molecules/contact-info-box';
@@ -63,6 +64,9 @@ body {
 @import 'partials/molecules/nav-menu';
 @import 'partials/molecules/nav-tabs';
 @import 'partials/molecules/nested-portlets';
+@import 'partials/molecules/portlet';
+@import 'partials/molecules/portlet-decorator';
+@import 'partials/molecules/portlet-journal-content';
 @import 'partials/molecules/search-with-result';
 @import 'partials/molecules/select-filter';
 @import 'partials/molecules/simple-push-box';

@@ -1,0 +1,48 @@
+.blogs-teaser-list {
+
+  //padding: 0 15px;
+
+  .entry-item {
+
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+
+    .entry-link {
+      background: transparent;
+      color: $text-color;
+      display: block;
+      padding: 16px 15px;
+      text-decoration: none;
+      @include clearfix();
+
+      .entry-date {
+        color: #999;
+        margin-top: 0;
+        float: left;
+        width: 90px;
+      }
+
+      .entry-title {
+        color: $link-color;
+        margin-left: 100px;
+        position: relative;
+      }
+
+
+      &:hover {
+        background: $got-sandgray;
+        text-decoration: none;
+
+        .entry-title {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+
+
+  }
+
+}
