@@ -19,7 +19,8 @@
 
 
 
-// Show portlet title even when admin controls are closed when decorate is used
+// Show portlet title even when admin controls are closed when decorate is used also when signed out
+.signed-out,
 .custom-admin-controls-closed,
 .custom-admin-controls-open {
 
