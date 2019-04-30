@@ -89,6 +89,8 @@
 <!-- inject:js -->
 <!-- endinject -->
 
+<#include "${full_templates_path}/piwik.ftl" />
+
 </body>
 
 </html>
