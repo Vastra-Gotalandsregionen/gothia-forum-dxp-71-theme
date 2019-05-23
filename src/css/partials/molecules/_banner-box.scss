@@ -21,6 +21,10 @@
     color: $got-white;
     padding: 20px 200px 20px 20px;
 
+    @media (max-width: $screen-xs-min) {
+      padding: 72px 20px 20px 20px;
+    }
+
     a,
     a:visited {
       color: $got-white;

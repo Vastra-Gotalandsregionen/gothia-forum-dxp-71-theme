@@ -1,13 +1,14 @@
-.portlet-nested-portlets {
+.portlet-nested-portlets .portlet .portlet-content .portlet-body {
+  padding-bottom: 0;
+}
 
-  .row {
-    .portlet-column-first {
-      padding-left: 0;
-    }
+.portlet-nested-portlets .portlet-boundary {
+  left: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  margin-bottom: 0;
+}
 
-    .portlet-column-last {
-      padding-right: 0;
-    }
-  }
-
+.portlet-nested-portlets .portlet {
+  margin-bottom: 0;
 }
