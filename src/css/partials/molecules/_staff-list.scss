@@ -1,0 +1,24 @@
+.person.contact-info-wrap {
+  margin: 0 24px 24px 0;
+  box-sizing: border-box;
+  width: 30.95%;
+  height: 164px;
+
+  .block-row {
+    border: solid #888;
+    border-width: 0 0 1px 0;
+    padding: 4px 0;
+    margin: 4px 0;
+
+    &:last-child {
+      border-width: 0;
+    }
+
+    .icon {
+      font-size: 1.5em;
+      line-height: 32px;
+      width: 32px;
+    }
+
+  }
+}
