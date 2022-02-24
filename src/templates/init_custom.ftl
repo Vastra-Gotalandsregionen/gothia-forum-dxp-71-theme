@@ -79,18 +79,13 @@
 		<#local instance_id = "wcd" + article_id + portlet_instance_suffix />
 		<#local instance_id = instance_id?substring(0, 12) />
 
-    <#assign VOID = freeMarkerPortletPreferences.reset() />
-    <#assign VOID = freeMarkerPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone") />
-    <#assign VOID = freeMarkerPortletPreferences.setValue("groupId", group_id?c) />
-    <#assign VOID = freeMarkerPortletPreferences.setValue("articleId", article_id) />
+		<#assign wcdPortletPreferencesMap = {"articleId": article_id,"groupId": group_id?c,"portletSetupPortletDecoratorId": "barebone"} />
 
     <@liferay_portlet["runtime"]
-        defaultPreferences = "${freeMarkerPortletPreferences}"
-        instanceId = "${instance_id}"
+        defaultPreferences = freeMarkerPortletPreferences.getPreferences(wcdPortletPreferencesMap)
+        instanceId = instance_id
         portletName = "com_liferay_journal_content_web_portlet_JournalContentPortlet"
     />
-
-    <#assign VOID = freeMarkerPortletPreferences.reset() />
 
 	<#else>
 		&nbsp;
